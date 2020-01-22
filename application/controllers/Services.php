@@ -5,5 +5,6 @@ class Services extends CI_Controller {
 	
 	public function index() {
 		$this -> load -> view('services.php');
+		$this -> load -> view('footer.php');
 	}
 }

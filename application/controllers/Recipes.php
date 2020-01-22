@@ -5,5 +5,6 @@ class Recipes extends CI_Controller {
 	
 	public function index() {
 		$this -> load -> view('recipes.php');
+		$this -> load -> view('footer.php');
 	}
 }

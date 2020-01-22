@@ -5,5 +5,6 @@ class Contact extends CI_Controller {
 	
 	public function index() {
 		$this -> load -> view('contact.php');
+		$this -> load -> view('footer.php');
 	}
 }
