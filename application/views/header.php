@@ -1,4 +1,29 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ula Services &mdash; Slogan...</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    
+    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/animate.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/owl.carousel.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/aos.css'); ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/magnific-popup.css'); ?>">
+
+
+    <link rel="stylesheet" href="<?= base_url('assets/fonts/ionicons/ionicons.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/fonts/fontawesome/font-awesome.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/fonts/flaticon/font/flaticon.css'); ?>">
+ 
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
+  </head>
+  <body>
+    
+    
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
