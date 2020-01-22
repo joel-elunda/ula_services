@@ -23,53 +23,9 @@
 
   </head>
   <body>
-    
-    <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Foody</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="recipes.html">Recipes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Food Catering</a>
-                  <a class="dropdown-item" href="services.html">Drink &amp; Beverages</a>
-                  <a class="dropdown-item" href="services.html">Wedding &amp; Birthday</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- END header -->
-    
+     
     <div class="slider-wrap">
-      <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
+      <div class="slider-item" style="background-image: url('<?= base_url("assets/img/hero_1.jpg"); ?>');">
         
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
@@ -104,7 +60,7 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('<?= base_url("assets/img/dishes_4.jpg"); ?>');" data-aos="fade"></div>
               <div class="text order-1">
                 <h3>Grilled Caesar salad, shaved reggiano</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -114,7 +70,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('<?= base_url("assets/img/dishes_1.jpg"); ?>');" data-aos="fade"></div>
               <div class="text">
                 <h3>Spicy Calamari and beans</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -128,7 +84,7 @@
 
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('<?= base_url("assets/img/dishes_2.jpg"); ?>');" data-aos="fade"></div>
               <div class="text order-1">
                 <h3>Bacon wrapped wild gulf prawns</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -139,7 +95,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('<?= base_url("assets/img/dishes_3.jpg"); ?>');" data-aos="fade"></div>
               <div class="text">
                 <h3>Seared ahi tuna fillet*, honey-ginger sauce</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -155,7 +111,7 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('<?= base_url("assets/img/dishes_4.jpg"); ?>');" data-aos="fade"></div>
               <div class="text order-1">
                 <h3>Grilled Caesar salad, shaved reggiano</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -165,7 +121,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('<?= base_url("assets/img/dishes_1.jpg"); ?>');" data-aos="fade"></div>
               <div class="text">
                 <h3>Spicy Calamari and beans</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -179,7 +135,7 @@
 
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('<?= base_url("assets/img/dishes_2.jpg"); ?>');" data-aos="fade"></div>
               <div class="text order-1">
                 <h3>Bacon wrapped wild gulf prawns</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -190,7 +146,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('<?= base_url("assets/img/dishes_3.jpg"); ?>');" data-aos="fade"></div>
               <div class="text">
                 <h3>Seared ahi tuna fillet*, honey-ginger sauce</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
