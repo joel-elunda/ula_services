@@ -26,12 +26,12 @@
   <body>
      
     <div class="slider-wrap no-slanted">
-      <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
+      <div class="slider-item" style="background-image: url('<?= base_url("assets/img/hero_1.jpg"); ?>');">
         
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 ">
-              <h1 data-aos="fade-up">Contact Foody</h1>
+              <h1 data-aos="fade-up">Contactez Ula Services</h1>
               <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Handcrafted with love by <a href="https://free-template.co" target="_blank">Free-Template.co</a></p>
               <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
             </div>

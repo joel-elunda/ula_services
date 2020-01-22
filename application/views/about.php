@@ -25,12 +25,12 @@
     
     
     <div class="slider-wrap no-slanted">
-      <div class="slider-item" style="background-image: url('<?= base_url("img/hero_1.jpg"); ?>');">
+      <div class="slider-item" style="background-image: url('<?= base_url("assets/img/hero_1.jpg"); ?>');">
         
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 ">
-              <h1 data-aos="fade-up">About Foody</h1>
+              <h1 data-aos="fade-up">A propos de Ula Services</h1>
               <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Handcrafted with love by <a href="https://free-template.co" target="_blank">Free-Template.co</a></p>
               <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
             </div>
@@ -53,14 +53,14 @@
           </div>
         <div class="row align-items-center mb-5">
           <div class="col-lg-4">
-            <img src="<?= base_url('img/dishes_1.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
+            <img src="<?= base_url('assets/img/dishes_1.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
           </div>
           <div class="col-lg-4">
-            <img src="<?= base_url('img/about_1.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
-            <img src="<?= base_url('img/about_2.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
+            <img src="<?= base_url('assets/img/about_1.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
+            <img src="<?= base_url('assets/img/about_2.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
           </div>
           <div class="col-lg-4">
-            <img src="<?= base_url('img/dishes_3.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
+            <img src="<?= base_url('assets/img/dishes_3.jpg');?>" alt="Free website template by Free-Template.co" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
           </div>
         </div>
 
@@ -95,7 +95,7 @@
             <div class="major-caousel js-carousel-1 owl-carousel">
               <div>
                 <div class="media d-block media-custom text-center">
-                  <a href="adoption-single.html"><img src="<?= base_url('img/person_1.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
+                  <a href="adoption-single.html"><img src="<?= base_url('assets/img/person_1.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
                   <div class="media-body">
                     <h3 class="mt-0 text-black">Mellisa Howard</h3>
                     <p class="lead">CEO, Co-Founder</p>
@@ -104,7 +104,7 @@
               </div>
               <div>
                 <div class="media d-block media-custom text-center">
-                  <a href="adoption-single.html"><img src="<?= base_url('img/person_2.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
+                  <a href="adoption-single.html"><img src="<?= base_url('assets/img/person_2.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
                   <div class="media-body">
                     <h3 class="mt-0 text-black">Mike Richardson</h3>
                     <p class="lead">CEO, Co-Founder</p>
@@ -113,7 +113,7 @@
               </div>
               <div>
                 <div class="media d-block media-custom text-center">
-                  <a href="adoption-single.html"><img src="<?= base_url('img/person_3.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
+                  <a href="adoption-single.html"><img src="<?= base_url('assets/img/person_3.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
                   <div class="media-body">
                     <h3 class="mt-0 text-black">Charles White</h3>
                     <p class="lead">CEO, Co-Founder</p>
@@ -123,7 +123,7 @@
 
                <div>
               <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="<?= base_url('img/person_1.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
+                <a href="adoption-single.html"><img src="<?= base_url('assets/img/person_1.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Mellisa Howard</h3>
                   <p class="lead">CEO, Co-Founder</p>
@@ -132,7 +132,7 @@
             </div>
             <div>
               <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="<?= base_url('img/person_2.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
+                <a href="adoption-single.html"><img src="<?= base_url('assets/img/person_2.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Mike Richardson</h3>
                   <p class="lead">CEO, Co-Founder</p>
@@ -141,7 +141,7 @@
             </div>
             <div>
               <div class="media d-block media-custom text-center">
-                <a href="adoption-single.html"><img src="<?= base_url('img/person_3.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
+                <a href="adoption-single.html"><img src="<?= base_url('assets/img/person_3.jpg');?>" alt="Image Placeholder" class="img-fluid"></a>
                 <div class="media-body">
                   <h3 class="mt-0 text-black">Charles White</h3>
                   <p class="lead">CEO, Co-Founder</p>
