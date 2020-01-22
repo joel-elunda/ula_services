@@ -22,25 +22,13 @@
  
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
 
-    <script src="<?= base_url('assets/js/jquery-3.2.1.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/popper.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/owl.carousel.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/jquery.waypoints.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/aos.js'); ?>"></script>
-
-    <script src="<?= base_url('assets/js/jquery.magnific-popup.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/magnific-popup-options.js'); ?>"></script>
-    
-
-    <script src="<?= base_url('assets/js/main.js'); ?>"></script>
   </head>
   <body>
     
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Foody</a>
+          <a class="navbar-brand" href="<?= site_url(""); ?>" >Foody</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -48,30 +36,30 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="<?= site_url(""); ?>" >Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="recipes.html">Recipes</a>
+                <a class="nav-link" href="re<?= site_url(""); ?>" >Recipes</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" href="<?= site_url(""); ?>"  id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">vices</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Food Catering</a>
-                  <a class="dropdown-item" href="services.html">Drink &amp; Beverages</a>
-                  <a class="dropdown-item" href="services.html">Wedding &amp; Birthday</a>
+                  <a class="dropdown-item" href="<?= site_url(""); ?>" >Food Catering</a>
+                  <a class="dropdown-item" href="<?= site_url(""); ?>" >Drink &amp; Beverages</a>
+                  <a class="dropdown-item" href="<?= site_url(""); ?>" >Wedding &amp; Birthday</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="<?= site_url(""); ?>" >About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="<?= site_url(""); ?>" >News</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="<?= site_url(""); ?>" >Contact Us</a>
               </li>
             </ul>
             
@@ -301,7 +289,7 @@
           <div class="col-12 text-md-center text-left">
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
@@ -313,18 +301,17 @@
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/aos.js"></script>
+    <script src="<?= base_url('assets/js/jquery-3.2.1.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/popper.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/owl.carousel.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/jquery.waypoints.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/aos.js'); ?>"></script>
 
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
+    <script src="<?= base_url('assets/js/jquery.magnific-popup.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/magnific-popup-options.js'); ?>"></script>
     
 
-    <script src="js/main.js"></script>
-    
+    <script src="<?= base_url('assets/js/main.js'); ?>"></script>
   </body>
 </html>
