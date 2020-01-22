@@ -1,30 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Foody &mdash; Website Template by Colorlib</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/animate.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/owl.carousel.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/aos.css'); ?>">
-
-    <link rel="stylesheet" href="<?= base_url('assets/css/magnific-popup.css'); ?>">
-
-
-    <link rel="stylesheet" href="<?= base_url('assets/fonts/ionicons/ionicons.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/fonts/fontawesome/font-awesome.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/fonts/flaticon/font/flaticon.css'); ?>">
  
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
-
-  </head>
-  <body>
-     
     <div class="slider-wrap no-slanted">
       <div class="slider-item" style="background-image: url('<?= base_url("assets/img/hero_1.jpg"); ?>');">
         
@@ -49,15 +23,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <form action="#" method="post">
+            <form action="<?= site_url('contact/user_infos'); ?>" method="post">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" class="form-control ">
+                  <label for="name">Nom</label>
+                  <input type="text" name="name" id="name" class="form-control ">
                 </div>
                 <div class="col-md-6 form-group">
-                  <label for="phone">Phone</label>
-                  <input type="text" id="phone" class="form-control ">
+                  <label for="phone">Téléphone</label>
+                  <input type="text" name="phone" id="phone" class="form-control ">
                 </div>
               </div>
               <div class="row">
@@ -68,18 +42,18 @@
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="email">Email</label>
-                  <input type="email" id="email" class="form-control ">
+                  <input type="email" name="email" id="email" class="form-control ">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
+                  <label for="message">Votre message</label>
                   <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary">
+                  <input type="submit" value="Envoyer" class="btn btn-primary">
                 </div>
               </div>
             </form>
@@ -91,17 +65,17 @@
               <h4 class="mb-5">Contact Details</h4>
                 <p class="d-flex">
                   <span class="ion-ios-location icon mr-5"></span>
-                  <span>34 Street Name, City Name Here, United States</span>
+                  <span>305 AV. Mpolo Q/ Kalubwe C/ Lubumbashi</span>
                 </p>
 
                 <p class="d-flex">
                   <span class="ion-ios-telephone icon mr-5"></span>
-                  <span>+1 242 4942 290</span>
+                  <span>+243 99 37 91 061</span>
                 </p>
 
                 <p class="d-flex">
                   <span class="ion-android-mail icon mr-5"></span>
-                  <span>info@yourdomain.com</span>
+                  <span>ula-serverices18@gmail.com</span>
                 </p>
               </div>
 
@@ -117,7 +91,7 @@
         <div class="container-fluid">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Testimonial</h2>
+              <h2>Ils nous ont fait confiance</h2>
             </div>
           </div>
         </div>
@@ -170,22 +144,4 @@
 
         
       </div>
-    </section> <!-- .section -->
-     
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
-
-    <script src="<?= base_url('assets/js/jquery-3.2.1.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/popper.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/owl.carousel.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/jquery.waypoints.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/aos.js'); ?>"></script>
-
-    <script src="<?= base_url('assets/js/jquery.magnific-popup.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/magnific-popup-options.js'); ?>"></script>
-    
-
-    <script src="<?= base_url('assets/js/main.js'); ?>"></script>
-  </body>
-</html>
+    </section> <!-- .section --> 
